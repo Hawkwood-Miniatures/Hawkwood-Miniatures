@@ -8,11 +8,12 @@ body {
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  text-align: left;
 }
 
 .sidenav a {
@@ -44,4 +45,11 @@ body {
   .sidenav a {
     font-size: 18px;
   }
+}
+
+#openbtn {
+  font-size:30px;
+  cursor:pointer;
+  position: fixed;
+  right: 29.5px;
 }
